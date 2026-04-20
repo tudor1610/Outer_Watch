@@ -3908,7 +3908,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C16" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="47nF"/>
 <part name="C14" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="ESP32_C6_LIBRARY_1_ESP32_WROVER_EAGLE-LTSPICE_C" device="C0402" value="4.7uF"/>
 <part name="C15" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="ESP32_C6_LIBRARY_1_ESP32_WROVER_EAGLE-LTSPICE_C" device="C0402" value="1.0uF"/>
-<part name="U$6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="NORDIC_NRF_1_XTAL_32KHZ" device="" value="32.768kHz"/>
+<part name="X2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="NORDIC_NRF_1_XTAL_32KHZ" device="" value="32.768kHz"/>
 <part name="SUPPLY16" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY17" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="C20" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="ESP32_C6_LIBRARY_1_ESP32_WROVER_EAGLE-LTSPICE_C" device="C0402" value="4.7uF"/>
@@ -3926,7 +3926,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="N.C."/>
 <part name="C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="12pF"/>
 <part name="C1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="12pF"/>
-<part name="U$13" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="NORDIC_NRF_XTAL_32MHZ" device=""/>
+<part name="X1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="NORDIC_NRF_XTAL_32MHZ" device=""/>
 <part name="SUPPLY23" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY24" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY25" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.MQzCYsgARiWfEyFJIY63Sg" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
@@ -4219,7 +4219,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="NAME" x="75.184" y="51.181" size="1.778" layer="95"/>
 <attribute name="VALUE" x="75.184" y="46.101" size="1.778" layer="96"/>
 </instance>
-<instance part="U$6" gate="X$1" x="-5.08" y="20.32" smashed="yes" rot="R270">
+<instance part="X2" gate="X$1" x="-5.08" y="20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="-8.89" y="20.32" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-3.048" y="25.4" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -4284,7 +4284,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="NAME" x="190.119" y="-1.016" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="195.199" y="-1.016" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$13" gate="X$1" x="182.88" y="2.54" smashed="yes" rot="R90">
+<instance part="X1" gate="X$1" x="182.88" y="2.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="174.244" y="2.54" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="176.53" y="2.54" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -4865,10 +4865,10 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="200.66" y1="-2.54" x2="195.58" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="200.66" y="-2.54"/>
 <pinref part="C1" gate="C$1" pin="2"/>
-<pinref part="U$13" gate="X$1" pin="2"/>
+<pinref part="X1" gate="X$1" pin="2"/>
 <wire x1="185.42" y1="5.08" x2="200.66" y2="5.08" width="0.1524" layer="91"/>
 <junction x="200.66" y="5.08"/>
-<pinref part="U$13" gate="X$1" pin="4"/>
+<pinref part="X1" gate="X$1" pin="4"/>
 <wire x1="185.42" y1="7.62" x2="200.66" y2="7.62" width="0.1524" layer="91"/>
 <junction x="200.66" y="7.62"/>
 </segment>
@@ -5481,7 +5481,7 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="C17" gate="C$1" pin="2"/>
 <wire x1="-10.16" y1="27.94" x2="-5.08" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="27.94" x2="-5.08" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="X$1" pin="1"/>
+<pinref part="X2" gate="X$1" pin="1"/>
 <wire x1="-5.08" y1="27.94" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="27.94" x2="2.54" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-7.62" x2="43.18" y2="-7.62" width="0.1524" layer="91"/>
@@ -5492,7 +5492,7 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="P0.01" class="0">
 <segment>
-<pinref part="U$6" gate="X$1" pin="2"/>
+<pinref part="X2" gate="X$1" pin="2"/>
 <wire x1="-5.08" y1="15.24" x2="-5.08" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="10.16" x2="-10.16" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C18" gate="C$1" pin="2"/>
@@ -5686,34 +5686,39 @@ DIN A3, landscape with location and doc. field</description>
 <label x="86.36" y="17.78" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="P1.14" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P1.14@B15"/>
 <wire x1="88.9" y1="12.7" x2="88.9" y2="17.78" width="0.1524" layer="91"/>
+<label x="88.9" y="17.78" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="P1.13" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P1.13@A16"/>
 <wire x1="91.44" y1="12.7" x2="91.44" y2="17.78" width="0.1524" layer="91"/>
+<label x="91.44" y="17.78" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="P1.12" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P1.12@B17"/>
 <wire x1="93.98" y1="12.7" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
+<label x="93.98" y="17.78" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="P1.11" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P1.11@B19"/>
 <wire x1="99.06" y1="12.7" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
+<label x="99.06" y="17.78" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="P1.10" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P1.10@A20"/>
 <wire x1="101.6" y1="12.7" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
+<label x="101.6" y="17.78" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -5811,7 +5816,7 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$13" gate="X$1" pin="3"/>
+<pinref part="X1" gate="X$1" pin="3"/>
 <wire x1="180.34" y1="10.16" x2="180.34" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="12.7" x2="187.96" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="C2" gate="C$1" pin="1"/>
@@ -5824,7 +5829,7 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$13" gate="X$1" pin="1"/>
+<pinref part="X1" gate="X$1" pin="1"/>
 <wire x1="180.34" y1="2.54" x2="180.34" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-2.54" x2="187.96" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="C1" gate="C$1" pin="1"/>
